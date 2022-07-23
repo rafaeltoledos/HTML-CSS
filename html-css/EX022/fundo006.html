@@ -4,18 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Documento</title>
+    <title>Fundo FIxo</title>
     <style>
         body{
-            background-color: black;
+            /*background-color: black;
             background-image: url(IMAGENS/wallpaper002.jpg);
             background-position: center top;
             background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed;
+
+            Todo o caminho pode ser resumido em uma shorthand seguindo a sequência: cor, url, position, repeat, (size), attachment.
+
+            Até o presente momento, o size não está funcionando, sendo necessário utilizá-lo externamento, conforme abaixo.
+            */
+            background: black url(IMAGENS/wallpaper002.jpg) center top no-repeat fixed;
+            background-size: cover;
         }
         main{
             background-color: white;
-            width: 400px;
+            width: 300px;
             padding: 10px;
             margin: auto;
             border: 2px solid black;
@@ -27,7 +35,7 @@
 <body>
     <main>
     <h1>Teste de Imagem de Fundo</h1>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam officiis voluptate unde placeat. Dolorum maxime corporis ipsum amet consectetur. Nesciunt, eius. Quod autem similique quae rerum. Deserunt eveniet aut velit?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam recusandae maiores provident officia qui labore totam sint pariatur dignissimos, nesciunt hic at, voluptatem corrupti eius dolores perferendis nemo blanditiis perspiciatis?Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores doloremque illum sint. Vitae, neque officiis aspernatur accusantium dolore aut, labore est deserunt perspiciatis omnis libero sequi iste quos. Corporis, commodi.</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam officiis voluptate unde placeat. Dolorum maxime corporis ipsum amet consectetur. Nesciunt, eius. Quod autem similique quae rerum. Deserunt eveniet aut velit?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam recusandae maiores provident officia qui labore totam sint pariatur dignissimos, nesciunt hic at, voluptatem corrupti eius dolores perferendis nemo blanditiis perspiciatis?Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores doloremque illum sint. Vitae, neque officiis aspernatur accusantium dolore aut, labore est deserunt perspiciatis omnis libero sequi iste quos. Corporis, commodi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus eligendi, vitae inventore consectetur asperiores optio atque accusamus expedita debitis maiores amet laudantium nostrum alias obcaecati ut nam iste? Aliquid, autem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, sunt vero esse fugiat necessitatibus harum dignissimos commodi debitis quam voluptatum vitae pariatur libero voluptates velit explicabo, nihil earum, nulla perferendis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, explicabo laudantium. Maiores, a non? Et tempore numquam nostrum earum optio ad in voluptate neque alias amet. Optio magni velit quam?</p>
 </main>
 </body>
 </html>

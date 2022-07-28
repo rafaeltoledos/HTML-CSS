@@ -53,6 +53,7 @@ section{
 }
 section > p{
     padding-bottom: 2em;
+    min-width: 600px;
 }
 section.normal{
     background-color: white;
@@ -61,6 +62,8 @@ section.normal{
 section.imagem{
     background-color: rgb(49, 47, 47);
     color: white;
+    box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.514);
+    background-attachment: fixed;
 }
 section.imagem > p{
     background-color: rgba(0, 0, 0, 0.363);
@@ -74,6 +77,8 @@ section#img01{
 }
 section#img02{
     background-image: url(../imagens/background002.jpg);
+    background-position: right center;
+    background-size: cover;
 }
 footer{
     background-color: black;
